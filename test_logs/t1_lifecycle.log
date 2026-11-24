@@ -1,0 +1,22 @@
+[10:01:51] [CLIENT 00:1A:2B:3C:4D:01] client up: UDP 6868 -> 255.255.255.255:6767
+[10:01:51] [CLIENT 00:1A:2B:3C:4D:01] [INIT->SELECTING] DHCPDISCOVER broadcast (xid=0xE05861EB, attempt 1/4, timeout 1000 ms)
+[10:01:51] [CLIENT 00:1A:2B:3C:4D:01] DHCPOFFER received: 192.168.10.100 from server 192.168.10.1
+[10:01:51] [CLIENT 00:1A:2B:3C:4D:01] [SELECTING->REQUESTING] DHCPREQUEST broadcast for 192.168.10.100 (xid=0xE05861EB)
+[10:01:51] [CLIENT 00:1A:2B:3C:4D:01] DHCPACK received -> [BOUND] to 192.168.10.100 for 16 s (T1 at 8 s)
+  +------------------- Assigned Network Configuration -------------------+
+  | Client MAC      : 00:1A:2B:3C:4D:01                                  |
+  | IP Address      : 192.168.10.100  /24                                |
+  | Subnet Mask     : 255.255.255.0                                      |
+  | Network Address : 192.168.10.0                                       |
+  | Default Gateway : 192.168.10.1                                       |
+  | DNS Server      : 8.8.8.8                                            |
+  | DHCP Server ID  : 192.168.10.1                                       |
+  | Lease Time      : 16 s (T1 renewal at 8 s)                           |
+  +----------------------------------------------------------------------+
+ASSIGNED_IP=192.168.10.100
+[10:01:51] [CLIENT 00:1A:2B:3C:4D:01] waiting 7984 ms for T1 (50% of lease)...
+[10:01:59] [CLIENT 00:1A:2B:3C:4D:01] [BOUND->RENEWING] DHCPREQUEST (ciaddr=192.168.10.100, xid=0x60CB8CF9, attempt 1/3)
+[10:02:00] [CLIENT 00:1A:2B:3C:4D:01] T1 RENEWAL: DHCPACK -> RENEWAL successful, [BOUND] to 192.168.10.100 for another 16 s
+[10:02:00] [CLIENT 00:1A:2B:3C:4D:01] DHCPRELEASE sent for 192.168.10.100 -> [INIT]
+[10:02:00] [CLIENT 00:1A:2B:3C:4D:01] filtered 0 foreign broadcast replies (xid/chaddr mismatch)
+TEST-LIFECYCLE: PASS

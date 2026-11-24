@@ -1,0 +1,19 @@
+[10:02:03] [CLIENT 00:1A:2B:3C:4D:06] client up: UDP 6868 -> 255.255.255.255:6767
+[10:02:03] [CLIENT 00:1A:2B:3C:4D:06] [INIT->SELECTING] DHCPDISCOVER broadcast (xid=0xC31B2BE6, attempt 1/4, timeout 1000 ms)
+[10:02:03] [CLIENT 00:1A:2B:3C:4D:06] DHCPOFFER received: 192.168.10.102 from server 192.168.10.1
+[10:02:03] [CLIENT 00:1A:2B:3C:4D:06] [SELECTING->REQUESTING] DHCPREQUEST broadcast for 192.168.10.102 (xid=0xC31B2BE6)
+[10:02:04] [CLIENT 00:1A:2B:3C:4D:06] DHCPACK received -> [BOUND] to 192.168.10.102 for 16 s (T1 at 8 s)
+  +------------------- Assigned Network Configuration -------------------+
+  | Client MAC      : 00:1A:2B:3C:4D:06                                  |
+  | IP Address      : 192.168.10.102  /24                                |
+  | Subnet Mask     : 255.255.255.0                                      |
+  | Network Address : 192.168.10.0                                       |
+  | Default Gateway : 192.168.10.1                                       |
+  | DNS Server      : 8.8.8.8                                            |
+  | DHCP Server ID  : 192.168.10.1                                       |
+  | Lease Time      : 16 s (T1 renewal at 8 s)                           |
+  +----------------------------------------------------------------------+
+ASSIGNED_IP=192.168.10.102
+[10:02:05] [CLIENT 00:1A:2B:3C:4D:06] filtered 4 foreign broadcast replies (xid/chaddr mismatch)
+[10:02:05] [CLIENT 00:1A:2B:3C:4D:06] exiting WITHOUT release - server must reclaim 192.168.10.102 after 16 s
+TEST-EXPIRE: CLIENT DONE

@@ -1,0 +1,3 @@
+$ make
+gcc -std=gnu11 -Wall -Wextra -Werror -O2 -o dhcp_server dhcp_server.c
+gcc -std=gnu11 -Wall -Wextra -Werror -O2 -o dhcp_client dhcp_client.c

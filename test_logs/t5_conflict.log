@@ -1,0 +1,4 @@
+[10:02:02] [CLIENT 00:1A:2B:3C:4D:04] client up: UDP 6868 -> 255.255.255.255:6767
+[10:02:02] [CLIENT 00:1A:2B:3C:4D:04] sending deliberately invalid DHCPREQUEST for 192.168.10.100 (xid=0x39D4CF9E)
+[10:02:02] [CLIENT 00:1A:2B:3C:4D:04] DHCPNAK received for 192.168.10.100 - server correctly refused
+TEST-NAK: PASS
